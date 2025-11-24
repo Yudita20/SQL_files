@@ -1,0 +1,29 @@
+-- CONDITIONAL FUNCTIONS
+
+SELECT name , salary,
+CASE
+WHEN salary BETWEEN 90000 AND 80000 THEN "HAHAAHHAHAHA"
+WHEN salary BETWEEN 70000 AND 79000 THEN "HEHEHEHEHE"
+ELSE "OHOHOHOHHHHH"
+END AS salary_fun
+FROM users;
+
+SELECT name,
+IF(gender = "FEMALE" , "YES" , "NO") as is_female
+FROM users;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
